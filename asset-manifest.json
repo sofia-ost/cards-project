@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/halo-project/static/css/main.e0992890.chunk.css",
+    "main.js": "/halo-project/static/js/main.eb57d818.chunk.js",
+    "main.js.map": "/halo-project/static/js/main.eb57d818.chunk.js.map",
+    "runtime-main.js": "/halo-project/static/js/runtime-main.ded7f6fc.js",
+    "runtime-main.js.map": "/halo-project/static/js/runtime-main.ded7f6fc.js.map",
+    "static/js/2.9cd3b2c3.chunk.js": "/halo-project/static/js/2.9cd3b2c3.chunk.js",
+    "static/js/2.9cd3b2c3.chunk.js.map": "/halo-project/static/js/2.9cd3b2c3.chunk.js.map",
+    "index.html": "/halo-project/index.html",
+    "static/css/main.e0992890.chunk.css.map": "/halo-project/static/css/main.e0992890.chunk.css.map",
+    "static/js/2.9cd3b2c3.chunk.js.LICENSE.txt": "/halo-project/static/js/2.9cd3b2c3.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/halo-project/static/media/arrow-right.2859eaf0.svg",
+    "static/media/close.61bc0d9f.svg": "/halo-project/static/media/close.61bc0d9f.svg",
+    "static/media/spinner.b83a5f2a.svg": "/halo-project/static/media/spinner.b83a5f2a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ded7f6fc.js",
+    "static/js/2.9cd3b2c3.chunk.js",
+    "static/css/main.e0992890.chunk.css",
+    "static/js/main.eb57d818.chunk.js"
+  ]
+}
