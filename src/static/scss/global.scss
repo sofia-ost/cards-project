@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1182px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 16px;
+    background-color: unset;
+    border: unset;
+    &--small {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+    }
+    &--big {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.price {
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    &::before {
+        content: '$';
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        position: relative;
+        bottom: 17px;
+        padding-right: 4px;
+    }
+}
+
+.category {
+    color: rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 15px 16px;
+    display: inline-block;
+    max-width: 100%;
+    &::placeholder {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &:focus {
+        border-color: #4BCFA0;
+        outline: none;
+    }
+}
+
+@media all and (max-width: 450px) {
+    h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .price {
+        font-size: 48px;
+        line-height: 60px;
+        &:before {
+            font-size: 28px;
+            line-height: 40px;
+            bottom: 14px;
+        }
+    }
+}
+
+@media all and (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+}
