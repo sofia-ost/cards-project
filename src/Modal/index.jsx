@@ -17,7 +17,7 @@ const useValidation = (value, validations) => {
                     value ? setEmpty(false) : setEmpty(true);
                     break;
                 case "isName": 
-                    const regLetter = /^[A-Za-z]+$/g;
+                    const regLetter = /^[A-Za-zА-Яа-я]+$/g;
                     regLetter.test(value) ? setNameError(false) : setNameError(true);
                     break;
                 case "isNumber": 
